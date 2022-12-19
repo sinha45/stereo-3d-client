@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { FaUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../../contexts/UserContext';
 // btn btn-ghost normal-case text-2xl
@@ -13,6 +14,9 @@ const Header = () => {
         <div className="navbar bg-accent-focus">
             <div className="flex-1">
                 <Link to='/' className="ml-14"><button className='text-2xl'><span className='text-orange-600'>Ste</span><span className='text-white'>reo</span><span>3D</span></button></Link>
+                <div className='mt-1 ml-36'>
+                    <button className="btn btn-ghost">3d Models</button>
+                </div>
             </div>
             <div className="flex-none mr-14">
                 <div className="dropdown dropdown-end">
@@ -33,10 +37,19 @@ const Header = () => {
                     </div>
                 </div>
                 {
-                    user?.uid ?
-                        <div className='ml-8'>
+                    user?.displayName ?
+                        <div className='ml-8 flex'>
                             <button onClick={logOut} className='text-white font-semibold'><Link to='/login'>Log out</Link></button>
+                            <div className='ml-4 mt-1'>
+                                <p className='text-slate-500 font-semibold'>{user?.displayName}</p>
+                            </div>
+                            <div className="avatar ml-4">
+                                <div className="w-8 rounded-full">
+                                    <img src={user?.photoURL} /> : <FaUser></FaUser>
+                                </div>
+                            </div>
                         </div>
+
                         :
                         <>
                             <div className='ml-8'>
