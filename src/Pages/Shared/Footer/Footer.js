@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className='mt-14'>
+        <>
             <footer className="footer p-10 bg-neutral text-neutral-content">
                 <div className='ml-64'>
                     <span className="footer-title">Services</span>
@@ -15,7 +16,7 @@ const Footer = () => {
                 <div>
                     <span className="footer-title">Stereo3D</span>
                     <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact us</a>
+                    <Link to='/contact'>Contact us</Link>
                     <a className="link link-hover">Sell 3d models</a>
                     <a className="link link-hover">Our Blogs</a>
                     <a className="link link-hover">Help Center</a>
@@ -43,7 +44,8 @@ const Footer = () => {
                     <p>Copyright © 2022 - All right reserved by Stereo3D</p>
                 </div>
             </footer>
-        </div>
+        </>
+
     );
 };
 

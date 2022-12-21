@@ -37,17 +37,15 @@ const Header = () => {
                     </div>
                 </div>
                 {
-                    user?.displayName ?
+                    user?.email ?
                         <div className='ml-8 flex'>
                             <button onClick={logOut} className='text-white font-semibold'><Link to='/login'>Log out</Link></button>
                             <div className='ml-4 mt-1'>
                                 <p className='text-slate-500 font-semibold'>{user?.displayName}</p>
                             </div>
-                            <div className="avatar ml-4">
-                                <div className="w-8 rounded-full">
-                                    <img src={user?.photoURL} /> : <FaUser></FaUser>
-                                </div>
-                            </div>
+
+
+
                         </div>
 
                         :
@@ -64,6 +62,15 @@ const Header = () => {
 
                         </>
                 }
+
+                {/* {user.PhotoURL ?
+                    <div className="w-8 rounded-full">
+
+                        <img src={user?.photoURL} /> :
+                    </div>
+                    :
+                    <FaUser></FaUser>
+                } */}
 
             </div>
 
