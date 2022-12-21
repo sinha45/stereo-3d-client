@@ -63,14 +63,14 @@ const Header = () => {
                         </>
                 }
 
-                {/* {user.PhotoURL ?
+                {user?.PhotoURL ?
                     <div className="w-8 rounded-full">
 
                         <img src={user?.photoURL} /> :
                     </div>
                     :
                     <FaUser></FaUser>
-                } */}
+                }
 
             </div>
 
