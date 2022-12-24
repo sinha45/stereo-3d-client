@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { FaUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../../contexts/UserContext';
+import Models from '../../MODELS/Models';
 // btn btn-ghost normal-case text-2xl
 
 const Header = () => {
@@ -15,7 +16,7 @@ const Header = () => {
             <div className="flex-1">
                 <Link to='/' className="ml-14"><button className='text-2xl'><span className='text-orange-600'>Ste</span><span className='text-white'>reo</span><span>3D</span></button></Link>
                 <div className='mt-1 ml-36'>
-                    <button className="btn btn-ghost">3d Models</button>
+                    <button className="btn btn-ghost"><Link to='/models'>3d Models</Link></button>
                 </div>
             </div>
             <div className="flex-none mr-14">
@@ -31,7 +32,7 @@ const Header = () => {
                             <span className="font-bold text-lg">8 Items</span>
                             <span className="text-info">Subtotal: $999</span>
                             <div className="card-actions">
-                                <button className="btn btn-primary btn-block">View cart</button>
+                                <button className="btn btn-primary btn-block"><Link to='/cart'>View cart</Link></button>
                             </div>
                         </div>
                     </div>

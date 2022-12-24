@@ -33,9 +33,17 @@ const Home = () => {
             </div>
 
             <Card></Card>
+            <div className='flex flex-col justify-center items-center mt-10 mb-10'>
+                <div className="btn-group grid grid-cols-2">
+                    <button className="btn btn-outline">Previous page</button>
+                    <button className="btn btn-outline">Next</button>
+                </div>
+            </div>
+
         </>
 
     );
 };
 
 export default Home;
+
