@@ -64,17 +64,17 @@ const Header = () => {
                         </>
                 }
 
-                {user?.PhotoURL ?
-                    <div className="w-8 rounded-full">
+                {user?.photoURL ?
 
-                        <img src={user.photoURL} />
+                    <div className='ml-2'>
+                        <img src={user.photoURL} className='w-9 rounded-full' alt="" />
                     </div>
                     :
-                    <>
-                        <div className='ml-2'>
-                            <FaUser></FaUser>
-                        </div>
-                    </>
+
+                    <div className='ml-2'>
+                        <FaUser></FaUser>
+                    </div>
+
                 }
 
             </div>
