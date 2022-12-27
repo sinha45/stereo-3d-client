@@ -13,7 +13,7 @@ const Home = () => {
 
                 <div className='flex flex-col justify-center items-center'>
                     <div className='mt-52'>
-                        <h1 className='text-3xl font-semibold text-white'>The Best Platform For 3D Content Enthusiasts</h1>
+                        <h1 className='text-3xl font-semibold text-white'>Best Platform For 3D Content Enthusiasts</h1>
                     </div>
 
                     <div className="form-control mt-6">
