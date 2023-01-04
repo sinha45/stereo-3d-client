@@ -6,7 +6,7 @@ import Card from '../../Card/Card';
 const Home = () => {
     return (
         <>
-            <div className="w-full h-96 bg-no-repeat bg-cover" style={{ backgroundImage: `url("https://images.unsplash.com/photo-1638727764647-e97c166c62cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80")`, height: "600px" }}>
+            <div className="w-full h-96 bg-no-repeat bg-cover" style={{ backgroundImage: `url("https://images.unsplash.com/photo-1628313348704-7f197d3dceb8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80")`, height: "600px" }}>
 
 
 
