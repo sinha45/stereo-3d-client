@@ -7,6 +7,7 @@ import Home from "../../Pages/Home/Home/Home";
 import Login from "../../Pages/Login/Login";
 import Models from "../../Pages/MODELS/Models";
 import Signup from "../../Pages/Signup/Signup";
+import PrivateRoute from "../PrivateRoute/PrivateRoute";
 
 
 export const router = createBrowserRouter([
@@ -29,7 +30,8 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/contact',
-                element: <Contact></Contact>
+                element: <PrivateRoute><Contact></Contact></PrivateRoute>
+
             },
             {
                 path: '/blogs',
@@ -37,11 +39,11 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/models',
-                element: <Models></Models>
+                element: <PrivateRoute><Models></Models></PrivateRoute>
             },
             {
                 path: '/cart',
-                element: <Cart></Cart>
+                element: <PrivateRoute><Cart></Cart></PrivateRoute>
             }
         ]
     }
