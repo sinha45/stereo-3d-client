@@ -4,7 +4,7 @@ const Blogs = () => {
     return (
 
         <div className='w-full mt-16'>
-            <div className='ml-22'>
+            <div className='ml-22 text-center'>
                 <h1 className='text-3xl font-bold text-gray-900'>Our Latest Blogs</h1>
                 <p className='mt-2 font-semibold '>These Blogs are written by the experts who loves find out the issues that works in 3D. Here You can grab some knowledge</p>
             </div>
@@ -20,7 +20,7 @@ const Blogs = () => {
                         </div>
                         <div className='inline-block float-left'>
 
-                            <h2 className='pr-10 font-semibold'>Sk sinha</h2>
+                            <h2 className='pl-1 font-semibold'>Sk sinha</h2>
                             <p className='pl-1 text-sm'>26 October 2022</p>
 
                         </div>
@@ -56,7 +56,7 @@ const Blogs = () => {
                         </div>
                         <div className='inline-block float-left'>
 
-                            <h2 className='pr-10 font-semibold'>Sk sinha</h2>
+                            <h2 className='pl-1 font-semibold'>Sk sinha</h2>
                             <p className='pl-1 text-sm'>26 October 2022</p>
 
                         </div>
@@ -92,7 +92,7 @@ const Blogs = () => {
                         </div>
                         <div className='inline-block float-left'>
 
-                            <h2 className='pr-10 font-semibold'>Sk sinha</h2>
+                            <h2 className='pl-1 font-semibold'>Sk sinha</h2>
                             <p className='pl-1 text-sm'>26 October 2022</p>
 
                         </div>

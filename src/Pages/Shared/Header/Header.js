@@ -29,8 +29,8 @@ const Header = () => {
                     </label>
                     <div tabIndex={0} className="mt-3 card card-compact dropdown-content w-52 bg-base-100 shadow">
                         <div className="card-body">
-                            <span className="font-bold text-lg">1 Items</span>
-                            <span className="text-info">Subtotal: $ 12.99</span>
+                            <span className="font-bold text-lg text-center">1 Items</span>
+                            <span className="text-info text-center">Subtotal: $ 12.99</span>
                             <div className="card-actions">
                                 <button className="btn btn-primary btn-block"><Link to='/cart'>View cart</Link></button>
                             </div>

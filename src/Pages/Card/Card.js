@@ -12,7 +12,7 @@ const Card = () => {
                     <div className="inline-block mb-7">
                         <div className='float-left mt-5 ml-4'>
                             <h2 className='font-semibold'>Mini Truck</h2>
-                            <p className='font-bold mt-2 mr-6 text-teal-500'>$12.99</p>
+                            <p className='font-bold mt-2  text-teal-500'>$12.99</p>
                         </div>
                         <div className='flex flex-col float-right mt-5 mr-4'>
                             <div className='mt-2 ml-24'>
@@ -35,7 +35,7 @@ const Card = () => {
                     <div className="inline-block mb-7">
                         <div className='float-left mt-5 ml-4'>
                             <h2 className='font-semibold'>Vintage Bike</h2>
-                            <p className='font-bold mt-2 mr-9 text-teal-500'>$12.99</p>
+                            <p className='font-bold mt-2  text-teal-500'>$12.99</p>
                         </div>
                         <div className='flex flex-col float-right mt-5 mr-4'>
                             <div className='mt-2 ml-24'>
@@ -58,7 +58,7 @@ const Card = () => {
                     <div className="inline-block mb-7">
                         <div className='float-left mt-5 ml-4'>
                             <h2 className='font-semibold'>Lamborghini Car</h2>
-                            <p className='font-bold mt-2 mr-16 text-teal-500'>$12.99</p>
+                            <p className='font-bold mt-2  text-teal-500'>$12.99</p>
                         </div>
                         <div className='flex flex-col float-right mt-5 mr-4'>
                             <div className='mt-2 ml-24'>
@@ -81,7 +81,7 @@ const Card = () => {
                     <div className="inline-block mb-7">
                         <div className='float-left mt-5 ml-4'>
                             <h2 className='font-semibold'>Porsche 911 Turbo</h2>
-                            <p className='font-bold mt-2 mr-20 text-teal-500'>$12.99</p>
+                            <p className='font-bold mt-2  text-teal-500'>$12.99</p>
                         </div>
                         <div className='flex flex-col float-right mt-5 mr-4'>
                             <div className='mt-2 ml-24'>
@@ -104,7 +104,7 @@ const Card = () => {
                     <div className="inline-block mb-7">
                         <div className='float-left mt-5 ml-4'>
                             <h2 className='font-semibold'>ChapelHills Valant</h2>
-                            <p className='font-bold mt-2 mr-20 text-teal-500'>$12.99</p>
+                            <p className='font-bold mt-2 text-teal-500'>$12.99</p>
                         </div>
                         <div className='flex flex-col float-right mt-5 mr-4'>
                             <div className='mt-2 ml-24'>
@@ -127,7 +127,7 @@ const Card = () => {
                     <div className="inline-block mb-7">
                         <div className='float-left mt-5 ml-4'>
                             <h2 className='font-semibold'>MaryKayCross</h2>
-                            <p className='font-bold mt-2 mr-14 text-teal-500'>$12.99</p>
+                            <p className='font-bold mt-2  text-teal-500'>$12.99</p>
                         </div>
                         <div className='flex flex-col float-right mt-5 mr-4'>
                             <div className='mt-2 ml-24'>
@@ -150,7 +150,7 @@ const Card = () => {
                     <div className="inline-block mb-7">
                         <div className='float-left mt-5 ml-4'>
                             <h2 className='font-semibold'>RosannaRing</h2>
-                            <p className='font-bold mt-2 mr-12 text-teal-500'>$12.99</p>
+                            <p className='font-bold mt-2  text-teal-500'>$12.99</p>
                         </div>
                         <div className='flex flex-col float-right mt-5 mr-4'>
                             <div className='mt-2 ml-24'>
@@ -173,7 +173,7 @@ const Card = () => {
                     <div className="inline-block mb-7">
                         <div className='float-left mt-5 ml-4'>
                             <h2 className='font-semibold'>Leather Jacket</h2>
-                            <p className='font-bold mt-2 mr-14 text-teal-500'>$12.99</p>
+                            <p className='font-bold mt-2  text-teal-500'>$12.99</p>
                         </div>
                         <div className='flex flex-col float-right mt-5 mr-4'>
                             <div className='mt-2 ml-24'>
@@ -196,7 +196,7 @@ const Card = () => {
                     <div className="inline-block mb-7">
                         <div className='float-left mt-5 ml-4'>
                             <h2 className='font-semibold'>Ladies handbag</h2>
-                            <p className='font-bold mt-2 mr-16 text-teal-500'>$12.99</p>
+                            <p className='font-bold mt-2  text-teal-500'>$12.99</p>
                         </div>
                         <div className='flex flex-col float-right mt-5 mr-4'>
                             <div className='mt-2 ml-24'>
@@ -219,7 +219,7 @@ const Card = () => {
                     <div className="inline-block mb-7">
                         <div className='float-left mt-5 ml-4'>
                             <h2 className='font-semibold'>Armani Bag</h2>
-                            <p className='font-bold mt-2 mr-9 text-teal-500'>$12.99</p>
+                            <p className='font-bold mt-2  text-teal-500'>$12.99</p>
                         </div>
                         <div className='flex flex-col float-right mt-5 mr-4'>
                             <div className='mt-2 ml-24'>
@@ -242,7 +242,7 @@ const Card = () => {
                     <div className="inline-block mb-7">
                         <div className='float-left mt-5 ml-4'>
                             <h2 className='font-semibold'>Crystal Crown</h2>
-                            <p className='font-bold mt-2 mr-12 text-teal-500'>$12.99</p>
+                            <p className='font-bold mt-2  text-teal-500'>$12.99</p>
                         </div>
                         <div className='flex flex-col float-right mt-5 mr-4'>
                             <div className='mt-2 ml-24'>
@@ -265,7 +265,7 @@ const Card = () => {
                     <div className="inline-block mb-7">
                         <div className='float-left mt-5 ml-4'>
                             <h2 className='font-semibold'>King Crown</h2>
-                            <p className='font-bold mt-2 mr-9 text-teal-500'>$12.99</p>
+                            <p className='font-bold mt-2  text-teal-500'>$12.99</p>
                         </div>
                         <div className='flex flex-col float-right mt-5 mr-4'>
                             <div className='mt-2 ml-24'>
