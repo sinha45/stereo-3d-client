@@ -14,7 +14,7 @@ const Header = () => {
     return (
         <div className="navbar bg-accent-focus">
             <div className="flex-1">
-                <Link to='/' className="ml-14"><button className='text-2xl'><span className='text-orange-600'>Ste</span><span className='text-white'>reo</span><span>3D</span></button></Link>
+                <Link to='/' className="ml-14"><button className='text-2xl'><span className='text-orange-600 font-bold'>Ste</span><span className='text-white'>reo</span><span className='font-bold'>3D</span></button></Link>
                 <div className='mt-1 ml-36'>
                     <button className="btn btn-ghost"><Link to='/models'>3d Models</Link></button>
                 </div>

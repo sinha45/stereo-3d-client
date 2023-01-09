@@ -8,18 +8,77 @@ const Cart = () => {
 
                 <div className='col-start-3 col-span-5'>
                     <div className="w-5/6 h-96">
-                        <figure><img src="https://images.unsplash.com/photo-1634363657957-d91ac22d230a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80" alt="Shoes" /></figure>
+                        <figure><div class="sketchfab-embed-wrapper"> <iframe width="700px" height="500px" title="Korean Bakery" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/2095d18b9602473c8f717377fdffe017/embed"></iframe></div></figure>
 
                     </div>
-                    <h1 className='mr-24 text-xl text-slate-700 font-semibold'>3D wallpaper</h1>
+                    <div className='ml-10 mt-32'>
+                        <h1 className='mr-24 text-2xl text-blue-700 font-semibold'>Wooden Dining Table Set</h1>
+                    </div>
                 </div>
                 <div className='col-end-11 col-span-3'>
-                    <h1 className='text-2xl font-bold text-blue-500 mb-5'>Mercedes car in Blender</h1>
-                    <h2 className='font-semibold text-slate-600 mb-2 text-lg'>Price: <span className='me-1'>$<span className='text-emerald-400 ml-1'>12.99</span></span></h2>
-                    <button className="btn btn-wide btn-accent">Go to payment</button>
-                </div>
 
+                    <h2 className='font-semibold text-slate-600 mb-2 text-2xl'>Price: <span className='me-1'>$<span className='text-emerald-400 ml-1'>12.99</span></span></h2>
+                    <button className="btn btn-wide btn-accent">Go to payment</button>
+
+                    <div className="overflow-x-auto mt-8 ml-10">
+                        <table className="table w-full">
+
+
+                            <tbody>
+
+
+                                <tr className="hover">
+
+                                    <td>Files</td>
+
+                                    <td>max, fbx</td>
+                                </tr>
+                                <tr className="hover">
+
+                                    <td>Vertices</td>
+
+                                    <td>126k</td>
+                                </tr>
+                                <tr className="hover">
+
+                                    <td>Textures</td>
+
+                                    <td>2</td>
+                                </tr>
+                                <tr className="hover">
+
+                                    <td>Materials</td>
+
+                                    <td>14</td>
+                                </tr>
+                                <tr className="hover">
+
+                                    <td>UV Layers</td>
+
+                                    <td>yes</td>
+                                </tr>
+                                <tr className="hover">
+
+                                    <td>Download size</td>
+
+                                    <td>230 mb</td>
+                                </tr>
+                                <tr className="hover">
+
+                                    <td>Rigged geometries</td>
+
+                                    <td>No</td>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
             </div>
+
+
         </div>
     );
 };
